@@ -34,9 +34,12 @@ public class TwoSumUsingBST {
 	}
 
 	/*
-	 * Output: Pair for sum 130 is ( 70, 60 ) Pair for sum 80 is ( 50, 30 ) Pair for
-	 * sum 90 is ( 50, 40 ) Nodes pair not found for the sum: 200 Pair for sum 70 is
-	 * ( 40, 30 )
+	 * Output: 
+	 * Pair for sum 130 is ( 70, 60 ) 
+	 * Pair for sum 80 is ( 50, 30 ) 
+	 * Pair for sum 90 is ( 50, 40 ) 
+	 * Nodes pair not found for the sum: 200 
+	 * Pair for sum 70 is ( 40, 30 )
 	 */
 
 	static boolean find2Sum(Node root, int sum, HashSet<Integer> hashSet) {
