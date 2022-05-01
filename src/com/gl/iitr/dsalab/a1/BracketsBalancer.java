@@ -74,8 +74,14 @@ public class BracketsBalancer {
 
 	public static void main(String[] args) {
 
-		String exprList[] = { "([{}])", "[()]{}{[()()]()}", "[()]{}{[)()]()}", "{{{{{{{[[[[[[]]]]]((((((()))))))}}}}}}",
-				"c{[(a)b]}", "{ [ (   ) ]      } " };
+		String exprList[] = { 
+				"([{}])", 
+				"[()]{}{[()()]()}", 
+				"[()]{}{[)()]()}", 
+				"{{{{{{{[[[[[[]]]]]((((((()))))))}}}}}}",
+				"c{[(a)b]}", 
+				"{ [ (   ) ]      } " 
+				};
 
 		for (String expr : exprList) {
 
